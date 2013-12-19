@@ -1,0 +1,4 @@
+<%#= debug @messages[0] %>
+<% @messages[0].each do |message|%>
+	<%= message.content %>
+<%end%>

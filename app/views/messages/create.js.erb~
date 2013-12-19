@@ -1,0 +1,4 @@
+<% publish_to "/messages/new" do %>
+  $("#chats").prepend("<li><%= @message.content %></li>");
+  $("#message_content").val('');
+<% end %>
